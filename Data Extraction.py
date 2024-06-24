@@ -3,7 +3,7 @@
 import os
 
 # This is path of my Working Directory
-Project_Directory= "c:\\Users\\kenny\\OneDrive\\Desktop\\--- SCHOOL ---\\LUIT\\Projects\\Project 12\\Gotham\\Bat_Family_DataBase"
+Project_Directory= "Directory path"
 
 # Initialize an empty list to store file information
 file_info_list = []
@@ -29,7 +29,7 @@ import os
 def ADVANCED (Project_Directory=None ):
 
     # This is the path of my Working Directory
-    Project_Directory= "c:\\Users\\kenny\\OneDrive\\Desktop\\--- SCHOOL ---\\LUIT\\Projects\\Project 12\\Gotham\\Bat_Family_DataBase"
+    Project_Directory= "Directory path"
     
     if Project_Directory is None:
         Project_Directory = os.getcwd()
@@ -48,7 +48,7 @@ def ADVANCED (Project_Directory=None ):
     return DataBase
 
 # This is the path of my Working Directory
-Project_Directory= "c:\\Users\\kenny\\OneDrive\\Desktop\\--- SCHOOL ---\\LUIT\\Projects\\Project 12\\Gotham\\Bat_Family_DataBase"
+Project_Directory= "Directory path"
 DataBase = ADVANCED(Project_Directory)
 
 # Print the list of dictionaries
